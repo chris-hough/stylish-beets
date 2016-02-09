@@ -1,12 +1,13 @@
 html {
   background-color: #c9b5ae;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  line-height: normal;
 }
 
 h1, h2 {
   color: #461b2e;
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
 }
 
 figure + p, b {
@@ -48,14 +49,13 @@ dd, footer {
   font-style: normal;
 }
 
-.nav> ol {
+.nav > ol {
   list-style-type: none;
   font-weight: bold;
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
 }
 
-nav,
-a:link {
+a {
   color: #87283e;
   text-decoration: none;
 }
@@ -68,4 +68,8 @@ a:hover {
 a:visited {
   color: #461b2e;
   text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
