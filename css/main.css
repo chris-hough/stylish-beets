@@ -44,20 +44,28 @@ dt {
   font-style: normal;
 }
 
-dd {
+dd, footer {
   font-style: normal;
 }
 
-nav> ol {
+.nav> ol {
   list-style-type: none;
   font-weight: bold;
-  font: 'PT Sans';
-  text-decoration: none;
+  font-family: 'PT Sans';
 }
+
 nav,
 a:link {
   color: #87283e;
+  text-decoration: none;
 }
+
 a:hover {
-  color: #440b11;
+  color: #461b2e;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #461b2e;
+  text-decoration: underline;
 }
